@@ -1,5 +1,5 @@
 ---
-title: Trang chủ
+title: Home
 has_more_link: true
 more_link_text: Đọc tiếp
 seo:
@@ -10,7 +10,7 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Fjord Theme
+      value: Trang chủ
       keyName: property
     - name: 'og:description'
       value: The preview of the Fjord theme
