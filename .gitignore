@@ -96,8 +96,3 @@ out
 .sourcebit-nextjs-cache.json
 .DS_Store
 .idea
-.next/
-node_modules/
-/npm-debug.log
-.DS_Store
-out/
