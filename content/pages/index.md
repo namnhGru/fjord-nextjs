@@ -1,10 +1,10 @@
 ---
-title: Home
+title: Trang chủ
 has_more_link: true
-more_link_text: Keep reading
+more_link_text: Đọc tiếp
 seo:
-  title: Stackbit Fjord Theme
-  description: The preview of the Fjord theme
+  title: 💔 30 years wasted
+  description: Nơi tiêu tốn thời gian của bạn
   extra:
     - name: 'og:type'
       value: website
