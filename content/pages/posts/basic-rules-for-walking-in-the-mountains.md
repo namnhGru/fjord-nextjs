@@ -6,7 +6,7 @@ thumb_img_alt: A man standing on a rock cliff overlooking a river
 content_img_path: images/1.jpg
 layout: post
 thumb_img_path: images/1.jpg
-title: Basic Rules For Walking In The Mountains
+title: Basic Rules For Walking In The Hưng ngố
 date: 2019-04-09
 thumbnail: images/2.jpg
 seo:
