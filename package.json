@@ -4,11 +4,12 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8080",
     "develop": "next dev",
     "fetch": "sourcebit fetch",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "cms": "next build && next export && npx netlify-cms-proxy-server"
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",
