@@ -1,76 +1,38 @@
 {
-    "title": "Stackbit Fjord Theme",
+    "title": "30 năm lãng phí",
     "path_prefix": "/",
     "palette": "yellow",
     "header": {
-        "title": "Fjord",
-        "tagline": "Minimal and clean blog theme",
-        "logo_img": "images/logo.svg",
-        "logo_img_alt": "Fjord Logo",
-        "background_img": "images/header-bg.jpg",
+        "title": "Nam Già",
+        "tagline": "Ba mươi năm cuộc đời lãng phí",
+        "logo_img": "images/nam-gia-logo.png",
+        "logo_img_alt": "Nam Gia Logo",
+        "background_img": "images/nam-gia-hat.jpg",
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Home",
+                "label": "Trang chủ",
                 "url": "/",
                 "style": "link"
             },
             {
-                "label": "About",
+                "label": "Về tôi",
                 "url": "/about",
-                "style": "link"
-            },
-            {
-                "label": "Style Guide",
-                "url": "/style-guide",
-                "style": "link"
-            },
-            {
-                "label": "Contact",
-                "url": "/contact",
                 "style": "link"
             }
         ],
         "has_social": true,
         "social_links": [
             {
-                "label": "Twitter",
-                "url": "https://twitter.com/",
+                "label": "Facebook",
+                "url": "https://facebook.com/hoangnamsdc",
                 "style": "icon",
-                "icon_class": "twitter",
-                "new_window": true
-            },
-            {
-                "label": "Instagram",
-                "url": "https://www.instagram.com/",
-                "style": "icon",
-                "icon_class": "instagram",
-                "new_window": true
-            },
-            {
-                "label": "GitHub",
-                "url": "https://github.com/",
-                "style": "icon",
-                "icon_class": "github",
-                "new_window": true
-            },
-            {
-                "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
-                "style": "icon",
-                "icon_class": "linkedin",
-                "new_window": true
-            },
-            {
-                "label": "DEV",
-                "url": "https://dev.to/",
-                "style": "icon",
-                "icon_class": "dev",
+                "icon_class": "facebook",
                 "new_window": true
             }
         ]
     },
     "footer": {
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=fjord&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>"
+        "content": "2021 &copy; Nam Già. All rights reserved."
     }
 }

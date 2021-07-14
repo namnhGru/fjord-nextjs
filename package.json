@@ -7,9 +7,10 @@
     "dev": "next dev -p 8080",
     "develop": "next dev",
     "fetch": "sourcebit fetch",
-    "build": "next build && next export",
+    "build": "cp public/admin/config-netlify.yml public/admin/config.yml && next build && next export",
     "start": "next start",
-    "cms": "next build && next export && npx netlify-cms-proxy-server"
+    "cms": "cp public/admin/config-local.yml public/admin/config.yml && next build && next export && (npx netlify-cms-proxy-server & npx http-server ./out &)",
+    "clear": ""
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",

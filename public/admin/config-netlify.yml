@@ -1,0 +1,22 @@
+backend:
+  name: github
+  branch: master
+  repo: namnhGru/fjord-nextjs # Branch to update (optional; defaults to master)
+media_folder: public/images
+public_folder: images
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/pages/posts"
+    create: true
+    fields:
+      - {label: "Tiêu đề", name: "title", widget: "string", required: true}
+      - {label: "Tiêu đề phụ", name: "subtitle", widget: "string"}
+      - {label: "Mở đầu", name: "excerpt", widget: "text"}
+      - {label: "Ngày xuất bản", name: "date", widget: "datetime", required: true}
+      - {label: "Minh họa bảng tin", name: "thumb_img_path", widget: "image", choose_url: true, default: "images/1.jpg"}
+      - {label: "Minh họa đầu trang", name: "content_img_path", widget: "image", choose_url: true, default: "images/1.jpg"}
+      - {label: "Chú thích minh họa", name: "thumb_img_alt", widget: "string"}
+      - {label: "Kiểu trang", name: "layout", widget: "select", options: [{label: "Blog Post", value: 'post'}, {label: "Home", value: 'home'}], required: true}
+      - {label: "Nội dung", name: "body", widget: "markdown", required: true}
+
