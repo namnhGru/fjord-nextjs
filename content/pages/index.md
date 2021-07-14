@@ -13,7 +13,7 @@ seo:
       value: Trang chủ
       keyName: property
     - name: 'og:description'
-      value: The preview of the Fjord theme
+      value: Nơi tiêu tốn thời gian của bạn
       keyName: property
     - name: 'og:image'
       value: images/home.jpg
@@ -24,7 +24,7 @@ seo:
     - name: 'twitter:title'
       value: Stackbit Fjord Theme
     - name: 'twitter:description'
-      value: The preview of the Fjord theme
+      value: Nơi tiêu tốn thời gian của bạn
     - name: 'twitter:image'
       value: images/home.jpg
       relativeUrl: true
