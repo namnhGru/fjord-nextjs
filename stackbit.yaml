@@ -258,7 +258,7 @@ models:
         name: seo
         models:
           - stackbit_page_meta
-  home:
+  sport:
     type: page
     urlPath: /sport
     label: Home
