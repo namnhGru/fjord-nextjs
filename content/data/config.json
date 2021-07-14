@@ -11,8 +11,28 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Trang chủ",
+                "label": "Trang chính",
                 "url": "/",
+                "style": "link"
+            },
+            {
+                "label": "Cờ vua",
+                "url": "/chess",
+                "style": "link"
+            },
+            {
+                "label": "Thể thao",
+                "url": "/sport",
+                "style": "link"
+            },
+            {
+                "label": "Nghệ thuật",
+                "url": "/art",
+                "style": "link"
+            },
+            {
+                "label": "Cảm hứng",
+                "url": "/self-help",
                 "style": "link"
             },
             {
