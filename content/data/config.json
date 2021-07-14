@@ -36,6 +36,11 @@
                 "style": "link"
             },
             {
+                "label": "Liên hệ",
+                "url": "/contact",
+                "style": "link"
+            },
+            {
                 "label": "Về tôi",
                 "url": "/about",
                 "style": "link"

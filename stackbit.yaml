@@ -258,6 +258,32 @@ models:
         name: seo
         models:
           - stackbit_page_meta
+  home:
+    type: page
+    urlPath: /sport
+    label: Home
+    layout: home
+    file: sport.md
+    hideContent: true
+    singleInstance: true
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the page
+        required: true
+      - type: boolean
+        name: has_more_link
+        label: Show keep reading link
+        description: Display the keep reading link in the post feed
+        default: true
+      - type: string
+        name: more_link_text
+        label: Keep reading link label
+      - type: model
+        name: seo
+        models:
+          - stackbit_page_meta
   contact:
     type: page
     urlPath: /contact

@@ -1,37 +1,36 @@
 ---
-title: Get in Touch
+title: Liên hệ
 img_path: images/contact.jpg
 form_id: contactForm
 form_action: /success
 form_fields:
   - input_type: text
     name: name
-    label: Name
-    default_value: Your name
+    label: Tên của bạn
+    default_value: Điền tên của bạn
     is_required: true
   - input_type: email
     name: email
     label: Email
-    default_value: Your email address
+    default_value: Điền email của bạn
     is_required: true
   - input_type: select
     name: subject
-    label: Subject
-    default_value: Please select
+    label: Tiêu đề
+    default_value: Chọn mô tả ứng với nội dung bạn định gửi
     options:
-      - Error on the site
-      - Sponsorship
-      - Other
+      - Blog bị lỗi
+      - Tài trợ
+      - Khác
   - input_type: textarea
     name: message
-    label: Message
-    default_value: Your message
+    label: Nội dung
+    default_value: Bạn hãy viết gì đó
   - input_type: checkbox
     name: consent
     label: >-
-      I understand that this form is storing my submitted information so I can
-      be contacted.
-submit_label: Send Message
+      Tôi hiểu rằng thông tin của tôi sẽ bị lưu lại phục vụ việc liên hệ sau này
+submit_label: Gửi thông tin
 seo:
   title: Get in Touch
   description: This is the contact page
@@ -61,4 +60,4 @@ seo:
 layout: contact
 ---
 
-To get in touch fill the form below.
+Gửi thông tin liên hệ cho tôi tại đây
