@@ -6,7 +6,7 @@ excerpt: Dự định thì rất nhiều, nhưng có lẽ tôi cũng nên tập 
   đề.
 date: 2021-07-06T07:42:42.678Z
 thumb_img_path: images/tea-and-writing.jpg
-thumb_img_alt: Có lẽ bạn đang cần một tách trà...
+thumb_img_alt: Có lẽ bạn đang cần một tách trà..
 exerpt: nguyendsajf
 content_img_path: images/tea-and-writing.jpg
 layout: post
